@@ -27,6 +27,12 @@ The goal would be to find a whole number number that scales all the mole ratios 
 
 This script makes folders in the current working directory based on the names in a list of strings. It does not support nested folders though. 
 
+## morse-translator
+
+This script allows for translation of text to and from morse code. Note that some special characters were taken from what was used in [GBoard's morse code keyboard](https://support.google.com/accessibility/android/answer/9011881?hl=en&co=GENIE.Platform%3DAndroid).
+`.` is used for "dot", `-` is used for dash, ` ` is used to separate characters, and `/` is used to separate words.
+If you would like to learn morse code, I found the [Google's morse code trainer](https://morse.withgoogle.com/learn/) helpful.
+
 ## quick_data_calculations
 
 This script contains some math functions that might be helpful for rudimentary data analysis. It was originally made to help me conceptualize the formulas I was needing to use by translating them into code. 
