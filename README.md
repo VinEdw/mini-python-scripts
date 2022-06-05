@@ -33,4 +33,4 @@ This script contains some math functions that might be helpful for rudimentary d
 
 ## temperature_unit_converter
 
-This script, when run, converts the input temperure value (with a unit) into Celcius (C), Fahrenheit (F), Kelvin (K) and Rankine (R). 
+This script, when run, converts the input temperature value (with a unit) into Celsius (C), Fahrenheit (F), Kelvin (K) and Rankine (R). 
