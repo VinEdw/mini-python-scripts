@@ -1,6 +1,6 @@
 # Quick statistics data calculations for chemistry
 
-import statistics as stats
+# import statistics as stats
 
 def promptDataList():
     data = []
