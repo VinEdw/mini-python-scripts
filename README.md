@@ -14,7 +14,7 @@ It does not do any kind of escaping, so it can only really handle simple numbers
 ## electron_configuration_writer
 
 This script is used to generate both full and abbreviated electron configuration strings. 
-In the simplest use case, the user inputs the number of electrons in the atom/ion of interest, and the script prints the electorn configuration.
+In the simplest use case, the user inputs the number of electrons in the atom/ion of interest, and the script prints the electron configuration.
 
 ## empirical_formula_assistor
 
