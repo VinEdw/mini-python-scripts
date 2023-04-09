@@ -23,6 +23,10 @@ When run, the user is prompted to input each element symbol and its amount.
 After which, the script prints the mole ratio of each element to the least abundant element. The user can then input a number to scale the ratios by. 
 The goal would be to find a whole number number that scales all the mole ratios to an approximate whole number.
 
+## euler_method
+
+This script uses Euler's method to approximate a solution to the given first order differential equation on the chosen interval.
+
 ## folder_maker
 
 This script makes folders in the current working directory based on the names in a list of strings. It does not support nested folders though. 
