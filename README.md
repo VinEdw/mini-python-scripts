@@ -47,6 +47,11 @@ Both projectiles were simulated as launching under the same initial conditions.
 
 This script contains some math functions that might be helpful for rudimentary data analysis. It was originally made to help me conceptualize the formulas I was needing to use by translating them into code. 
 
+## resistance_given_power_problem_numerical_method
+
+This script uses odd numerical techniques to solve the following physics problem. In retrospect, Newton's method would have worked much better.
+"A resistor with resistance R is connected to a battery that has emf 13.0 V and internal resistance r = 0.39 Ω. For what two values of R will the power dissipated in the resistor be 80.0 W ?"
+
 ## temperature_unit_converter
 
 This script, when run, converts the input temperature value (with a unit) into Celsius (C), Fahrenheit (F), Kelvin (K) and Rankine (R). 
