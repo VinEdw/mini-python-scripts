@@ -43,6 +43,11 @@ This jupyter notebook was used to generate graphs describing projectile motion w
 These graphs also plotted the values for a projectile traveling without any air resistance as a point of comparison.
 Both projectiles were simulated as launching under the same initial conditions.
 
+## quadratic_drag
+
+This script uses a numerical method to simulate projectile motion with quadratic drag.
+It then creates a plot of range vs initial speed for a variety of launch angles.
+
 ## quick_data_calculations
 
 This script contains some math functions that might be helpful for rudimentary data analysis. It was originally made to help me conceptualize the formulas I was needing to use by translating them into code. 
