@@ -11,6 +11,10 @@ This string is able to be pasted into a spreadsheet such as Google Sheets or Exc
 Values within a row are separated with tabs. Rows are separated with newlines. 
 It does not do any kind of escaping, so it can only really handle simple numbers and strings. 
 
+## classic_runge_kutta_4
+
+This script uses classic RK4 (fourth order Runge-Kutta) method to approximate a solution to the given first order diffferential equation on the chosen interval.
+
 ## electron_configuration_writer
 
 This script is used to generate both full and abbreviated electron configuration strings. 
@@ -30,6 +34,10 @@ This script uses Euler's method to approximate a solution to the given first ord
 ## folder_maker
 
 This script makes folders in the current working directory based on the names in a list of strings. It does not support nested folders though. 
+
+## improved_euler_method
+
+This script uses improved Euler method to approximate a solution to the given first order differential equation on the chosen interval.
 
 ## morse_translator
 
