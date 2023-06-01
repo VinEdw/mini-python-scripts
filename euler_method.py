@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Set the intial conditions, final x, number of steps
+# Set the initial conditions, final x, number of steps
 x_0 = 0
 y_0 = 0.5
 x_f = 0.5
@@ -19,7 +19,7 @@ def f(x, y):
 x = np.linspace(x_0, x_f, N+1)
 # Create an empty array for the y values
 y = np.zeros(N+1)
-# Add the inital y value
+# Add the initial y value
 y[0] = y_0
 
 # Populate the y array recursively
