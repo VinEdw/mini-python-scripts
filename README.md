@@ -65,6 +65,13 @@ This script contains some math functions that might be helpful for rudimentary d
 This script uses odd numerical techniques to solve the following physics problem. In retrospect, Newton's method would have worked much better.
 "A resistor with resistance R is connected to a battery that has emf 13.0 V and internal resistance r = 0.39 Ω. For what two values of R will the power dissipated in the resistor be 80.0 W ?"
 
+## spot_the_difference
+
+This script was used in mini contest with friends to spot the differences between two images of identical dimensions.
+The differences are then used to produce two output images to help a person identify where the differences are.
+The first has a blank background and puts pixels from image 2 for the differences.
+The second takes the pixels from image 2 and leaves the differences blank.
+
 ## temperature_unit_converter
 
 This script, when run, converts the input temperature value (with a unit) into Celsius (C), Fahrenheit (F), Kelvin (K) and Rankine (R). 
