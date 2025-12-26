@@ -35,6 +35,11 @@ This script uses Euler's method to approximate a solution to the given first ord
 
 This script makes folders in the current working directory based on the names in a list of strings. It does not support nested folders though. 
 
+## grade_poker
+
+This script compares the poker hands found in the `poker.txt` file and counts how many times the first player wins.
+It was used to solve [Project Euler Problem \#54](https://projecteuler.net/problem=54).
+
 ## improved_euler_method
 
 This script uses improved Euler method to approximate a solution to the given first order differential equation on the chosen interval.
