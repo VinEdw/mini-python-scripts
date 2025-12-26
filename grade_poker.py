@@ -28,24 +28,27 @@ def is_flush(cards):
             return False
     return True
 
-def is_straight(cards):
+def is_straight_and_rank(cards):
     cards = sort_cards(cards)
     rank_seq = "".join(card[0] for card in cards)
-    return rank_seq in card_ranks
+    if rank_seq in card_ranks:
+        return True, card_rank_index(cards[-1])
+    elif rank_seq == card_ranks[:hand_size-1] + card_ranks[-1]:
+        return True, card_rank_index(cards[-2])
+    return False, 0
 
 def evaluate_hand(cards):
     assert len(cards) == hand_size
     flush = is_flush(cards)
-    straight = is_straight(cards)
+    straight, straight_rank = is_straight_and_rank(cards)
 
     card_idxs = [card_rank_index(card) for card in cards]
     card_counts = card_rank_counts(cards)
     max_count = max(card_counts)
     desc_card_idxs = sorted(card_idxs, reverse=True)
-    max_card_idx = desc_card_idxs[0]
 
     if straight and flush:
-        return 9, (max_card_idx,)
+        return 9, (straight_rank,)
 
     if max_count == 4:
         main_rank = card_counts.index(4)
@@ -66,7 +69,7 @@ def evaluate_hand(cards):
         return 6, (*desc_card_idxs,)
 
     if straight:
-        return 5, (max_card_idx,)
+        return 5, (straight_rank,)
 
     if max_count == 2:
         first_pair = card_counts.index(2)
